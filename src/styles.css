@@ -35,7 +35,6 @@ header {
   margin: 0 auto;
 }
 
-/* Logo */
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -45,7 +44,6 @@ header {
   font-weight: normal;
 }
 
-/* Nawigacja */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -57,27 +55,24 @@ header {
   font-weight: bold;
 }
 
-/* Burger menu */
 .burger-menu {
   font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
-  display: none; /* Domyślnie ukryty */
+  display: none; 
 }
 
-/* Responsywność */
 @media (max-width: 768px) {
   .nav-links {
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px;
+      top: 40px;
       left: 0;
       width: 100%;
-      background: white;
-      border-top: 1px solid #ddd;
-      padding: 10px 0;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
   .nav-links a {
@@ -93,4 +88,5 @@ header {
   .nav-active {
       display: flex;
   }
+
 }
