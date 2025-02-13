@@ -2,9 +2,10 @@ import '../styles.css';
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded and parsed');
-    // zmienSekcje('home');  
+    // zmienSekcje  
 
     // initializeGaleria();
     // initializeBlog();
     // applyAnimations();
 });
+
